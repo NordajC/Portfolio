@@ -13,8 +13,8 @@ function BlackIconWrapper({ icon, ...rest }) {
   return (
     <IconWrapper
       icon={icon}
-      bgColor='bg-[#264653]'
-      textColor='text-[#E76F51]'
+      bgColor='bg-[#333]'
+      textColor='text-[#fff]'
       {...rest}
     />
   )
@@ -35,7 +35,7 @@ function IconWrapper({ icon, bgColor, textColor, target, isEmail }) {
   return (
     <a
       href={isEmail ? `mailto:${target}` : target}
-      className={`w-20 h-20 md:w-14 md:h-14 lg:w-20 lg:h-20 ${bgColor} flex items-center justify-center text-3xl transition-all hover:text-4xl cursor-pointer border border-black`}
+      className={`w-20 h-20 md:w-14 md:h-14 lg:w-20 lg:h-20 ${bgColor} flex items-center justify-center text-3xl transition-all hover:text-4xl cursor-pointer border border-black rounded-lg z-40`}
     >
       <FontAwesomeIcon icon={icon} className={textColor} />
     </a>
@@ -46,21 +46,21 @@ export default function Contact() {
   return (
     <>
       <div className='md:w-1/2'>
-        <svg id='ecfYqkDzjoQ1' viewBox='0 0 300 300' cached='true'>
+        <svg id='ecfYqkDzjoQ1' viewBox='0 0 300 300' cached='true' className={"lg:mt-6"}>
           <rect
             width='180'
             height='100'
             rx='0'
             ry='0'
             transform='translate(60.17149 108.449952)'
-            fill='#e9c46a'
+            fill='#444444'
             stroke-width='2'
           />
           <path
             id='ecfYqkDzjoQ3'
             d='M60.17149,102.131785h180l-56.262776,38.259286h-66.503538L60.17149,102.131785Z'
             transform='matrix(1.014566 0 0 1-2.187398 6.318167)'
-            fill='#fada8e'
+            fill='#222222'
             stroke='#000'
           />
           <g id='ecfYqkDzjoQ4_to' transform='translate(112.311339,143.37819)'>
@@ -79,27 +79,27 @@ export default function Contact() {
           <path
             d='M57.541567,231.197731l58.128647-61.740714l67.615265.555863l55.567062,61.184851h-181.310974Z'
             transform='translate(1.318949-22.747779)'
-            fill='#e9c46a'
+            fill='#222222'
             stroke='#000'
           />
-          <g id='ecfYqkDzjoQ6_to' transform='translate(165.331702,160.997459)'>
+          {/* <g id='ecfYqkDzjoQ6_to' transform='translate(165.331702,160.997459)'>
             <path
               d='M34.184295,24.718736c-13.089115-12.08083-29.609924,9.009516,0,24.589991c29.609923-15.580475,13.089114-36.670821,0-24.589991Z'
               transform='translate(-49.999996,-50.074374)'
               fill='#e76f51'
               stroke='#000'
             />
-          </g>
+          </g> */}
           <path
             d='M117.537054,170.01288L59.065428,231.753594l.342979-100l58.128647,38.259286Z'
             transform='translate(-.547891-23.303642)'
-            fill='#fada8e'
+            fill='#333333'
             stroke='#000'
           />
           <path
             d='M183.285482,170.012881l56.262776-38.259287v100l-56.262776-61.740713Z'
             transform='translate(.623232-23.303642)'
-            fill='#fada8e'
+            fill='#333333'
             stroke='#000'
           />
           <g id='ecfYqkDzjoQ9_to' transform='translate(153.264699,121.816195)'>
@@ -112,7 +112,7 @@ export default function Contact() {
               fontWeight='700'
               transform='translate(-41.068009,5.272683)'
               opacity='0'
-              fill='#e76f51'
+              fill='#222222'
               strokeWidth='0'
             >
               <tspan y='0' fontWeight='700' stroke-width='0'>
@@ -120,7 +120,7 @@ export default function Contact() {
               </tspan>
             </text>
           </g>
-          <path
+          {/* <path
             id='ecfYqkDzjoQ11'
             d='M33.5,38.5c-4.361905,3.466667-5.766667,6.27619-7.5,15-1.733333-8.72381-3.138095-11.533333-7.5-15c4.361905-3.466667,5.766667-6.27619,7.5-15c1.733333,8.72381,3.138095,11.533333,7.5,15Z'
             transform='translate(165.408714 26.767436)'
@@ -167,19 +167,17 @@ export default function Contact() {
             opacity='0'
             fill='#fff'
             stroke='#000'
-          />
+          /> */}
         </svg>
       </div>
-      <div className='grid grid-cols-3 gap-3 md:w-1/2'>
+      <div className='grid grid-cols-2 gap-2 md:w-1/2 justify-items-center'>
         <BlackIconWrapper
           icon={faInstagram}
           target='https://www.instagram.com/thecodedose/'
         />
-        <RedIconWrapper icon={faXTwitter} target="https://x.com/thecodedose" />
-        <BlackIconWrapper icon={faYoutube} target="https://www.youtube.com/channel/UCUqYu_GiAzFL4ErDEiK9xbA" />
-        <RedIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/ihsavru/" />
-        <BlackIconWrapper icon={faGithub} target="https://github.com/thecodedose"  />
-        <RedIconWrapper icon={faEnvelope} target="urvashi@thecodedose.com" isEmail />
+        <BlackIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/jun-hann-chong/" />
+        <BlackIconWrapper icon={faGithub} target="https://github.com/NordajC"  />
+        <BlackIconWrapper icon={faEnvelope} target="chongjunhann9@gmail.com" isEmail />
       </div>
     </>
   )

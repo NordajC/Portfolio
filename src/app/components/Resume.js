@@ -15,7 +15,7 @@ export default function Resume() {
           rx='0'
           ry='0'
           transform='matrix(.984808-.173648 0.173648 0.984808 59.069019 42.649988)'
-          fill='#9ad1ea'
+          fill='#555'
           stroke='#000'
         />
         <rect
@@ -92,7 +92,7 @@ export default function Resume() {
             <circle
               r='20'
               transform='translate(49.249341 53.412947)'
-              fill='#e9c46a'
+              fill='#333333'
               stroke='#000'
             />
             <rect
@@ -120,7 +120,7 @@ export default function Resume() {
           id='eGNsHDgmMvZ14'
           d='M46.849999,16.82L36.690447,18.684246L28.077349,17.052517L26.85,16.82L46.85,16.82L46.849999,16.82Z'
           transform='matrix(.984808-.173648 0.173648 0.984808 140.143352 21.197326)'
-          fill='#e76f51'
+          fill='#555555'
           stroke='#000'
         />
         <rect
@@ -130,7 +130,7 @@ export default function Resume() {
           rx='0'
           ry='0'
           transform='matrix(.984808-.173648 0.173648 0.984808 137.520203 77.463428)'
-          fill='#2a9d8f'
+          fill='#333333'
           stroke='#000'
         />
         <rect
@@ -140,7 +140,7 @@ export default function Resume() {
           rx='0'
           ry='0'
           transform='matrix(.984808-.173648 0.173648 0.984808 140.405443 92.950047)'
-          fill='#2a9d8f'
+          fill='#333333'
           stroke='#000'
         />
         <rect
@@ -150,7 +150,7 @@ export default function Resume() {
           rx='0'
           ry='0'
           transform='matrix(.984808-.173648 0.173648 0.984808 106.800322 177.802951)'
-          fill='#f4a261'
+          fill='#565656'
           stroke='#000'
         />
         <rect
@@ -160,13 +160,13 @@ export default function Resume() {
           rx='0'
           ry='0'
           transform='matrix(.984808-.173648 0.173648 0.984808 155.116753 168.79446)'
-          fill='#264653'
+          fill='#666666'
           stroke='#000'
         />
       </svg>
 
-      <div className='cursor-pointer hover:scale-105 transition-all lg:absolute bg-[#264653] w-fit px-5 py-2 m-3 border border-black'>
-        <h2 className='font-neutral-900 text-3xl font-bold text-[#E9C46A]'>
+      <div className='cursor-pointer hover:scale-105 transition-all lg:absolute rounded-lg bg-[#333333] border-[#cccccc] w-fit px-5 py-2 border border-black md:scale-75 md:-m-6 mb-4'>
+        <h2 className='font-neutral-900 text-3xl font-bold text-[#eeeeee]'>
           Resume
         </h2>
       </div>

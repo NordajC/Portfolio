@@ -5,7 +5,7 @@ export default function Projects() {
     <div className='flex flex-col-reverse items-center justify-center lg:block'>
       <svg
         id='ewEtQUf14pr1'
-        className='w-full lg:absolute bottom-0'
+        className='w-full lg:absolute -bottom-6 scale-90 lg:ml-8 -ml-6'
         viewBox='0 0 455 256'
         cached='false'
       >
@@ -28,26 +28,26 @@ export default function Projects() {
             rx='0'
             ry='0'
             transform='translate(9.215 34.35601)'
-            fill='#e9c46a'
+            fill='#ffffff'
             stroke='#000'
           />
           <path
             d='M302,33h27v152.769531h-27L302,33Zm0,0'
             transform='translate(2.164062-1.086783)'
-            fill='#f4a261'
+            fill='#eeeeee'
             stroke='#000'
           />
           <path
             d='M418.89954,133.40093h20.983935v19.363896h-20.983935v-19.363896Zm0,0'
             transform='matrix(.935001 0 0 0.929565-84.190383-85.930568)'
-            fill='#94d1ee'
+            fill='#999999'
             stroke='#000'
             stroke-miterlimit='10'
           />
           <path
             d='M418.89954,133.40093h20.983935v19.363896h-20.983935v-19.363896Zm0,0'
             transform='matrix(.935001 0 0 0.929565-83.673098 40.143693)'
-            fill='#94d1ee'
+            fill='#999999'
             stroke='#000'
             stroke-miterlimit='10'
           />
@@ -55,7 +55,7 @@ export default function Projects() {
             <g>
               <path
                 d='M9.214844,6.832031h322.066406v27.523438h-322.066406v-27.523438Zm0,0'
-                fill='#264653'
+                fill='#dddddd'
                 stroke='#000'
               />
             </g>
@@ -80,28 +80,28 @@ export default function Projects() {
           <path
             d='M422.701782,107.999431h21.200126v21.200126h-21.200126v-21.200126Zm0,0'
             transform='matrix(.929756 0 0 0.929756-86.1774-89.6748)'
-            fill='#94d1ee'
+            fill='#dd2255'
             stroke='#000'
             stroke-miterlimit='10'
           />
           <path
             d='M394.598801,107.999431h21.200126v21.200126h-21.200126v-21.200126Zm0,0'
             transform='matrix(.929756 0 0 0.929756-86.1774-89.6748)'
-            fill='#94d1ee'
+            fill='#cccccc'
             stroke='#000'
             stroke-miterlimit='10'
           />
           <path
             d='M398.601763,111.998316h13.196511v13.200713h-13.196511v-13.200713Zm0,0'
             transform='matrix(0-.929756 0.929756 0 180.306 397.399)'
-            fill='#94d1ee'
+            fill='#ffffff'
             stroke='#000'
             stroke-miterlimit='10'
           />
           <path
             d='M366.600854,107.999431h21.200126v21.200126h-21.200126v-21.200126Zm0,0'
             transform='matrix(.929756 0 0 0.929756-86.1774-89.6748)'
-            fill='#94d1ee'
+            fill='#ffffff'
             stroke='#000'
             stroke-miterlimit='10'
           />
@@ -127,7 +127,7 @@ export default function Projects() {
             <path
               d='M423.39921,164.49949v63.600378h21.099293v-63.600378h-21.099293Zm0,0'
               transform='scale(0.929756,0.929756) translate(0,0)'
-              fill='#94d1ee'
+              fill='#555555'
               stroke='#000'
               stroke-miterlimit='10'
             />
@@ -230,7 +230,7 @@ export default function Projects() {
           rx='0'
           ry='0'
           transform='translate(76.212771 75.110196)'
-          fill='#94d1ee'
+          fill='#666666'
           stroke='#000'
         />
         <rect
@@ -240,7 +240,7 @@ export default function Projects() {
           rx='0'
           ry='0'
           transform='translate(142.382948 75.261707)'
-          fill='#2a9d8f'
+          fill='#222222'
           stroke='#000'
         />
         <rect
@@ -250,7 +250,7 @@ export default function Projects() {
           rx='0'
           ry='0'
           transform='translate(142.382948 100.110196)'
-          fill='#2a9d8f'
+          fill='#222222'
           stroke='#000'
         />
         <rect
@@ -260,7 +260,7 @@ export default function Projects() {
           rx='0'
           ry='0'
           transform='translate(142.382948 125.082024)'
-          fill='#2a9d8f'
+          fill='#222222'
           stroke='#000'
         />
         <rect
@@ -270,7 +270,7 @@ export default function Projects() {
           rx='0'
           ry='0'
           transform='translate(77.382948 145.148528)'
-          fill='#e76f51'
+          fill='#bbbbbb'
           stroke='#000'
         />
         <g
@@ -292,8 +292,8 @@ export default function Projects() {
         </g>
       </svg>
 
-      <div className='cursor-pointer hover:scale-105 transition-all lg:absolute bottom-3 bg-[#264653] w-fit px-5 py-2 m-3 border border-black'>
-        <h2 className='font-neutral-900 text-3xl font-bold text-[#E9C46A]'>
+      <div className='cursor-pointer transition-all lg:absolute bottom-3 w-fit px-4 py-2 mb-2 -ml-5 border rounded-lg bg-[#333333] border-[#cccccc]'>
+        <h2 className='font-neutral-900 text-3xl font-bold text-[#eeeeee]'>
           Projects
         </h2>
       </div>

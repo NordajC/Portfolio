@@ -5,8 +5,8 @@ export default function WorkExperience() {
     <div className='flex flex-col-reverse items-center justify-center lg:block'>
       <svg
         id='e68ZndEqcxF1'
-        className='w-full lg:absolute bottom-0'
-        viewBox='0 0 455 512'
+        className='w-full lg:absolute bottom-0 lg:-ml-8 lg:mt-6'
+        viewBox='10 0 455 512'
         cached='false'
       >
         <g
@@ -20,7 +20,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 119.945149)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -29,7 +29,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 145.43027)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -38,7 +38,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.419299 119.945149)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -47,7 +47,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 119.945149)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -56,7 +56,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 146.23014)'
-              fill='#3ac6b5'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -65,7 +65,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 146.23014)'
-              fill='#64e1d1'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -74,7 +74,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 173.315001)'
-              fill='#207a70'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -83,7 +83,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 172.515131)'
-              fill='#2a9d8f'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -92,7 +92,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.201859 172.515131)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -101,7 +101,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 172.515131)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -110,7 +110,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.582368 146.23014)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -119,7 +119,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.582368 200.109588)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -128,7 +128,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 200.109588)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -137,7 +137,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 200.109588)'
-              fill='#64e1d1'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -146,7 +146,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 200.109588)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -155,7 +155,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 199.309718)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -164,7 +164,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.201859 147.03001)'
-              fill='#207a70'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -173,7 +173,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 120.309199)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -182,7 +182,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.218317 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -191,7 +191,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 172.515131)'
-              fill='#207a70'
+              fill='#aaaaaa'
               stroke='#000'
             />
           </g>
@@ -207,7 +207,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 119.145279)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -216,7 +216,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 145.43027)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -225,7 +225,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 120.791443)'
-              fill='#207a70'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -234,7 +234,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -243,7 +243,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 146.23014)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -252,7 +252,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 146.23014)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -261,7 +261,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 173.361425)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -270,7 +270,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 172.515131)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -279,7 +279,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 172.515131)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -288,7 +288,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(195.031233 172.515131)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -297,7 +297,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.582368 146.23014)'
-              fill='#64e1d1'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -306,7 +306,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 200.109588)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -315,7 +315,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 200.109588)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -324,7 +324,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 200.955882)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -333,7 +333,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 200.109588)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -342,7 +342,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 199.309718)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -351,7 +351,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.201859 147.076434)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -360,7 +360,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 121.155493)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -369,7 +369,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.223888 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -378,7 +378,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 172.561555)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
           </g>
@@ -394,7 +394,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 119.145279)'
-              fill='#207a70'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -403,7 +403,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 145.43027)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -412,7 +412,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -421,7 +421,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 119.945149)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -430,7 +430,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 146.23014)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -439,7 +439,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 146.23014)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -448,7 +448,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 172.515131)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -457,7 +457,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 172.515131)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -466,7 +466,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 172.515131)'
-              fill='#64e1d1'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -475,7 +475,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 172.515131)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -484,7 +484,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.582368 146.23014)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -493,7 +493,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 200.109588)'
-              fill='#64e1d1'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -502,7 +502,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 200.109588)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -511,7 +511,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 200.109588)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -520,7 +520,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 200.109588)'
-              fill='#3ac6b5'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -529,7 +529,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 199.309718)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -538,7 +538,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.201859 146.23014)'
-              fill='#3ac6b5'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -547,7 +547,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 120.309199)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -556,7 +556,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.223888 119.945149)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -565,7 +565,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 171.715261)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
           </g>
@@ -581,7 +581,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 119.145279)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -590,7 +590,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.833089 145.43027)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -599,7 +599,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -608,7 +608,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 119.945149)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -617,7 +617,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.42487 146.23014)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -626,7 +626,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.805379 146.23014)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -635,7 +635,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 172.515131)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -644,7 +644,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 172.515131)'
-              fill='#207a70'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -653,7 +653,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 172.515131)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -662,7 +662,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 172.515131)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -671,7 +671,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.582368 146.23014)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -680,7 +680,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.587939 200.109588)'
-              fill='#2a9d8f'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -689,7 +689,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 200.109588)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -698,7 +698,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(139.81095 200.109588)'
-              fill='#207a70'
+              fill='#39D353'
               stroke='#000'
             />
             <rect
@@ -707,7 +707,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(112.430441 200.109588)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -716,7 +716,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 199.309718)'
-              fill='#64e1d1'
+              fill='#006D32'
               stroke='#000'
             />
             <rect
@@ -725,7 +725,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.201859 146.23014)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
             <rect
@@ -734,7 +734,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(167.20743 120.309199)'
-              fill='#3ac6b5'
+              fill='#aaaaaa'
               stroke='#000'
             />
             <rect
@@ -743,7 +743,7 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(194.223888 119.945149)'
-              fill='#2a9d8f'
+              fill='#9BE9A8'
               stroke='#000'
             />
             <rect
@@ -752,12 +752,12 @@ export default function WorkExperience() {
               rx='0'
               ry='0'
               transform='translate(85.83866 171.715261)'
-              fill='#3ac6b5'
+              fill='#26A641'
               stroke='#000'
             />
           </g>
         </g>
-        <g
+        {/* <g
           id='e68ZndEqcxF86'
           transform='translate(8.36678 48.86324)'
           opacity='0'
@@ -872,7 +872,7 @@ export default function WorkExperience() {
             id='e68ZndEqcxF99'
             r='5'
             transform='translate(382.534766 164.340673)'
-            fill='#fff'
+            fill='#aaaaaa'
             stroke='#000'
           />
           <circle
@@ -884,7 +884,7 @@ export default function WorkExperience() {
           <circle
             r='5'
             transform='translate(320.03054 435.816449)'
-            fill='#fff'
+            fill='#aaaaaa'
             stroke='#000'
           />
           <circle
@@ -896,14 +896,14 @@ export default function WorkExperience() {
           <circle
             r='2.5'
             transform='translate(370.034766 428.316449)'
-            fill='#fff'
+            fill='#aaaaaa'
             stroke='#000'
           />
           <circle
             id='e68ZndEqcxF104'
             r='5'
             transform='translate(60.140082 358.229092)'
-            fill='#fff'
+            fill='#aaaaaa'
             stroke='#000'
           />
           <circle
@@ -922,14 +922,16 @@ export default function WorkExperience() {
           <circle
             r='4'
             transform='translate(71.640082 72.013785)'
-            fill='#fff'
+            fill='#aaaaaa'
             stroke='#000'
           />
-        </g>
+        </g> */}
       </svg>
 
-      <div className='hover:scale-105 transition-all cursor-pointer lg:absolute lg:left-1/2 lg:-translate-x-1/2 text-center bg-[#264653] border border-black font-bold w-fit px-5 py-2 m-3'>
-        <h2 className='font-neutral-900 text-4xl lg:text-5xl text-[#E9C46A]'>
+      <div 
+      className='lg:absolute lg:left-1/2 lg:-translate-x-1/2 text-center border font-bold w-fit px-5 py-2 m-3 rounded-lg bg-[#333333] border-[#cccccc]'
+      >
+        <h2 className='font-neutral-900 text-4xl lg:text-5xl text-[#eeeeee]'>
           Work Experience
         </h2>
       </div>
