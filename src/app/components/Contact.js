@@ -35,7 +35,7 @@ function IconWrapper({ icon, bgColor, textColor, target, isEmail }) {
   return (
     <a
       href={isEmail ? `mailto:${target}` : target}
-      className={`w-20 h-20 md:w-14 md:h-14 lg:w-20 lg:h-20 ${bgColor} flex items-center justify-center text-3xl transition-all hover:text-4xl cursor-pointer border border-black rounded-lg z-40`}
+      className={`w-20 h-20 md:w-14 md:h-14 lg:w-20 lg:h-20 ${bgColor} flex items-center justify-center text-3xl transition-all hover:text-4xl border border-black rounded-lg z-40`}
     >
       <FontAwesomeIcon icon={icon} className={textColor} />
     </a>
@@ -170,11 +170,12 @@ export default function Contact() {
           /> */}
         </svg>
       </div>
-      <div className='grid grid-cols-2 gap-2 md:w-1/2 justify-items-center'>
-        <BlackIconWrapper
+      <div className='grid grid-cols-3 gap-2 md:w-1/2 justify-items-center'>
+        {/* <BlackIconWrapper
           icon={faInstagram}
           target='https://www.instagram.com/thecodedose/'
-        />
+          id="icon"
+        /> */}
         <BlackIconWrapper icon={faLinkedinIn} target="https://www.linkedin.com/in/jun-hann-chong/" />
         <BlackIconWrapper icon={faGithub} target="https://github.com/NordajC"  />
         <BlackIconWrapper icon={faEnvelope} target="chongjunhann9@gmail.com" isEmail />

@@ -487,7 +487,7 @@ export default function Education() {
           /> */}
         </svg>
         <div
-          className="rounded-lg cursor-pointer hover:scale-105 transition-all w-fit px-5 py-2 m-3 border-grey-400/60 bg-[#333333] border-[#cccccc]"
+          className="rounded-lg hover:scale-105 transition-all w-fit px-5 py-2 m-3 border-grey-400/60 bg-[#333333] border-[#cccccc]"
           onClick={openModal}
         >
           <h2 className="font-neutral-900 text-3xl font-bold text-[#eee]">

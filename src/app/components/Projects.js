@@ -292,7 +292,7 @@ export default function Projects() {
         </g>
       </svg>
 
-      <div className='cursor-pointer transition-all lg:absolute bottom-3 w-fit px-4 py-2 mb-2 -ml-5 border rounded-lg bg-[#333333] border-[#cccccc]'>
+      <div className='transition-all lg:absolute bottom-3 w-fit px-4 py-2 mb-2 -ml-5 border rounded-lg bg-[#333333] border-[#cccccc]'>
         <h2 className='font-neutral-900 text-3xl font-bold text-[#eeeeee]'>
           Projects
         </h2>

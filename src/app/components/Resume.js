@@ -165,7 +165,7 @@ export default function Resume() {
         />
       </svg>
 
-      <div className='cursor-pointer hover:scale-105 transition-all lg:absolute rounded-lg bg-[#333333] border-[#cccccc] w-fit px-5 py-2 border border-black md:scale-75 md:-m-6 mb-4'>
+      <div className='lg:absolute rounded-lg bg-[#333333] border-[#cccccc] w-fit px-5 py-2 border border-black md:scale-75 md:-m-6 mb-4'>
         <h2 className='font-neutral-900 text-3xl font-bold text-[#eeeeee]'>
           Resume
         </h2>

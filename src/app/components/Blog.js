@@ -399,7 +399,7 @@ export default function Blog() {
 
       </div> */}
       
-      <div className='hover:scale-105 transition-all cursor-pointer lg:absolute w-fit px-5 py-2 m-3 border rounded-lg bg-[#333333] border-[#cccccc]'>
+      <div className='lg:absolute w-fit px-5 py-2 m-3 border rounded-lg bg-[#333333] border-[#cccccc]'>
         <h2 className='font-neutral-900 text-3xl font-bold text-[#eeeeee]'>
           Blog
         </h2>

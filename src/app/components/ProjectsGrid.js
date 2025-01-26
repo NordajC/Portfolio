@@ -49,7 +49,36 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[1]}
           className="w-full h-full h-full w-full p-10 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
-        ></animated.div>
+        >
+          <div className="w-full flex place-content-between align-items">
+            <h1 className="text-3xl p-0 sm:w-lg">QMUL Ticketing System</h1>
+            <a
+              href="https://github.com/NordajC/MPGD-project-prototype"
+              className={`w-10 h-10 border rounded-lg bg-[#333] flex items-center justify-center text-xl sm:w-10`}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} className="text-[#fff] h-10" />
+            </a>
+          </div>
+
+          <div class="text-base text-slate-600 lg:max-full pt-2 leading-6 flex flex-row flex-wrap gap-2 w-full">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">BootStrap</span>
+            <span class="tag">Firebase Auth</span>
+            <span class="tag">Firebase Realtime Database</span>
+            <span class="tag">jQuery</span>
+          </div>
+
+          <p className="text-[#777777] pt-2">
+            Developed a web application for the EECS department to streamline
+            issue reporting, feedback submission, and extenuating circumstances
+            (EC) applications. The platform enables real-time tracking of
+            service statuses and ticket management for students and staff.
+          </p>
+        </animated.div>
       </animated.div>
 
       <animated.div
@@ -61,9 +90,9 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           className="w-full h-full relative h-full w-full p-8 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
         >
           <div className="w-full flex place-content-between align-items">
-            <h1 className="text-3xl p-0 sm:w-lg">3D Action Survival Game</h1>
+            <h1 className="text-3xl p-0 sm:w-lg">SPA News Aggregator</h1>
             <a
-              href="https://github.com/NordajC/MPGD-project-prototype"
+              href="https://github.com/NordajC/News-Aggregator"
               className={`w-10 h-10 border rounded-lg bg-[#333] flex items-center justify-center text-xl sm:w-10`}
               target="_blank"
             >
@@ -72,16 +101,17 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           </div>
 
           <div class="text-base text-slate-600 lg:max-w-xs pt-2 leading-6 flex flex-row flex-wrap gap-2 w-full">
-            <span class="tag">C#</span>
-            <span class="tag">Unity</span>
-            <span class="tag">Blender</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Django</span>
+            <span class="tag">Python</span>
+            <span class="tag">Vue.js</span>
+            <span class="tag">Vite</span>
+            <span class="tag">Pinia</span>
           </div>
 
           <p className="text-[#777777] pt-2">
-            This web app uses the Web Audio API to generate realistic ambulance
-            and police siren sounds with spatial audio, simulating movement from
-            different directions. Users can control the siren and its visual
-            representation on a canvas in real-time using the arrow keys.
+          Engineered a real-time news SPA using Django, Vue.js, and REST APIs, featuring user authentication,
+          personalized news preferences, and commenting capabilities.
           </p>
         </animated.div>
       </animated.div>
@@ -183,10 +213,9 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           </div>
 
           <p className="text-[#777777] pt-2">
-            Redesigned and coded the Acument group company website with
-            intergrated job posting feature and general content management
-            features using StrapAPI. Also developed a resuable UI library using
-            SCSS.
+            Built a cross-platform iOS/Android app for trip planning, featuring
+            personalized itineraries, budget management, and group expense
+            sharing.
           </p>
         </animated.div>
       </animated.div>
@@ -198,7 +227,16 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         <animated.div
           style={trails[5]}
           className="h-full w-full p-10 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
-        ></animated.div>
+        >
+          <h1 className="text-3xl p-2 sm:w-lg text-center">View More Projects</h1>
+          <a
+            href="https://github.com/NordajC/travelapptest"
+            className={`size-20 border rounded-lg bg-[#333] flex items-center justify-center text-xl mt-2 max-w-40 m-auto`}
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faGithub} className="text-[#fff] h-10 text-5xl hover:scale-[1.10] duration-150 ease-linear" />
+          </a>
+        </animated.div>
       </animated.div>
 
       {/* <animated.div

@@ -13,7 +13,7 @@
 
     const handleMouseMove = (e) => {
       cursorPositionRef.current = { x: e.clientX, y: e.clientY }
-      if (e.target.tagName === "H2" || e.target.id === "home") {
+      if (e.target.tagName === "H2" || e.target.id === "home" || e.target.id === "icon") {
         cursorRef.current.style.height = "50px"
         cursorRef.current.style.width = "50px"
         innerRef.current.style.height = "30px"
