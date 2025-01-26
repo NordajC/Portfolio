@@ -3,6 +3,9 @@ import { useTrail, animated, easings } from "@react-spring/web";
 import { GRIDS } from "../constants";
 import Image from "next/image";
 import acument from "../assets/acument.gif";
+import nextrip from "../assets/NexTrip.png";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
   const [nameIdx, setNameIdx] = useState(0);
@@ -57,24 +60,29 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
           style={trails[3]}
           className="w-full h-full relative h-full w-full p-8 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
         >
-          <h1 className="text-3xl p-0 m-0">Spatial Sound Simulator</h1>
-          {/* <Image
-            src={acument}
-            alt="Acument Website"
-            layout="cover"
-            objectFit="contain"
-            className="border border-grey-400/60 rounded-lg width-full"
-          /> */}
-
-          <div class="text-base text-slate-600 lg:max-w-xs pt-2 leading-6 flex flex-row flex-wrap gap-2 w-full">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Web Audio API</span>
+          <div className="w-full flex place-content-between align-items">
+            <h1 className="text-3xl p-0 sm:w-lg">3D Action Survival Game</h1>
+            <a
+              href="https://github.com/NordajC/MPGD-project-prototype"
+              className={`w-10 h-10 border rounded-lg bg-[#333] flex items-center justify-center text-xl sm:w-10`}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} className="text-[#fff] h-10" />
+            </a>
           </div>
 
-          <p className="text-[#777777] pt-2">This web app uses the Web Audio API to generate realistic ambulance and police siren sounds with spatial audio, simulating movement from different directions. Users can control the siren and its visual representation on a canvas in real-time using the arrow keys.</p>
+          <div class="text-base text-slate-600 lg:max-w-xs pt-2 leading-6 flex flex-row flex-wrap gap-2 w-full">
+            <span class="tag">C#</span>
+            <span class="tag">Unity</span>
+            <span class="tag">Blender</span>
+          </div>
 
+          <p className="text-[#777777] pt-2">
+            This web app uses the Web Audio API to generate realistic ambulance
+            and police siren sounds with spatial audio, simulating movement from
+            different directions. Users can control the siren and its visual
+            representation on a canvas in real-time using the arrow keys.
+          </p>
         </animated.div>
       </animated.div>
 
@@ -104,7 +112,12 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
             <span class="tag">Strapi</span>
           </div>
 
-          <p className="text-[#777777] pt-2">Redesigned and coded the Acument group company website with intergrated job posting feature and general content management features using StrapAPI. Also developed a resuable UI library using SCSS.</p>
+          <p className="text-[#777777] pt-2">
+            Redesigned and coded the Acument group company website with
+            intergrated job posting feature and general content management
+            features using StrapAPI. Also developed a resuable UI library using
+            SCSS.
+          </p>
         </animated.div>
       </animated.div>
 
@@ -134,17 +147,53 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
 
       <animated.div
         style={animatedStyles}
-        className="lg:row-span-3 lg:col-span-3"
+        className="lg:row-span-6 lg:col-span-3"
       >
         <animated.div
           style={trails[4]}
-          className="h-full w-full p-10 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
-        ></animated.div>
+          className="h-full w-full p-8 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
+        >
+          <div className="w-full flex place-content-between align-items">
+            <h1 className="text-3xl p-2 sm:w-lg">
+              NexTrip Travel Itinerary App
+            </h1>
+            <a
+              href="https://github.com/NordajC/travelapptest"
+              className={`w-10 h-10 border rounded-lg bg-[#333] flex items-center justify-center text-xl mt-2 sm:w-10`}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGithub} className="text-[#fff] h-10" />
+            </a>
+          </div>
+          <Image
+            src={nextrip}
+            alt="NexTrip"
+            // layout="cover"
+            // objectFit="cover"
+            className="border border-grey-400/60 rounded-lg w-80 m-auto"
+            unoptimized
+          />
+
+          <div class="text-base text-slate-600 pt-2 leading-6 flex flex-row flex-wrap gap-2 w-full">
+            <span class="tag">Dart</span>
+            <span class="tag">Flutter</span>
+            <span class="tag">Firestore</span>
+            <span class="tag">Firebase Auth</span>
+            <span class="tag">Realtime Database</span>
+          </div>
+
+          <p className="text-[#777777] pt-2">
+            Redesigned and coded the Acument group company website with
+            intergrated job posting feature and general content management
+            features using StrapAPI. Also developed a resuable UI library using
+            SCSS.
+          </p>
+        </animated.div>
       </animated.div>
 
       <animated.div
         style={animatedStyles}
-        className="lg:row-span-3 lg:col-span-4"
+        className="lg:row-span-3 lg:col-span-3"
       >
         <animated.div
           style={trails[5]}
@@ -152,15 +201,15 @@ export default function ProjectsGrid({ setCurrentGrid, animatedStyles }) {
         ></animated.div>
       </animated.div>
 
-      <animated.div
+      {/* <animated.div
         style={animatedStyles}
-        className="lg:row-span-3 lg:col-span-2"
+        className="lg:row-span-3 lg:col-span-3"
       >
         <animated.div
           style={trails[4]}
           className="lg:flex justify-between items-center p-10 gap-5 h-full w-full p-10 bg-white/20 backdrop-blur-[6px] backdrop-saturate-180 border border-grey-400/60 rounded-lg z-40 shadow-none transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(139,163,225,0.7),_inset_0_0_10px_4px_rgba(139,163,225,0.3)] hover:border-[#8BA3E1]"
         ></animated.div>
-      </animated.div>
+      </animated.div> */}
     </animated.div>
   );
 }
